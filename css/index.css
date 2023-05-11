@@ -28,6 +28,7 @@
 .link{
     text-decoration:none;
     color: white;
+    display: inline-block;
 }
 
 .column-one{
@@ -73,7 +74,8 @@
     flex-wrap: wrap;
     width: 70%;
     margin:0 auto;
-    margin-top:20px
+    margin-top:20px;
+    margin-bottom: 20px;
 }
 
 .col-1 {
@@ -135,4 +137,61 @@ img {
     font-size: 0.8em;
 
 }
-/* .
+
+/* FOOTER  */
+
+.footer{
+    height: 80px;
+    background-color: rgb(38, 38, 38);
+}
+
+.footer-row{
+    width: 70%;
+    margin: auto;
+}
+
+.column-footer-one{
+    width: 50%;
+    display: inline-block;
+}
+
+.column-footer-two{
+    width: 49%;
+    display: inline-block;
+    height: 100%;
+
+}
+
+.link-footer-1{
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.link-footer-2{
+    font-size: 0.4em;
+    padding-top: 5px;
+}
+
+.footer-text{
+    text-align: right;
+    font-size: 0.5em;
+    color: white;
+    
+
+}
+ 
+
+div > i {
+    color: white;
+    padding-top: 5px    
+}
+
+div > i:not(:last-child){
+    padding-right: 7px;
+
+}
+
+.footer-social{
+    text-align: right;
+
+}
