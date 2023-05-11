@@ -14,3 +14,49 @@
 }
 
 /* GENERAL */
+
+.header{
+    height: 50px;
+    background-color: rgb(255, 119, 0);
+}
+
+.header-row{
+    max-width: 70%;
+    margin:auto;
+}
+
+.link{
+    text-decoration:none;
+    color: white;
+}
+
+.column-one{
+    width:29%;
+    display: inline-block;
+}
+
+.icon{
+    padding-left: 10px;
+    color: white;
+    padding-top: 10px;
+}
+.column-two{
+    width: 40%;
+    display: inline-block;
+
+}
+
+.img-container{
+    width: 100px;
+    margin-left: 200px;
+    padding-top: 10px;
+
+
+}
+
+.column-three{
+    width:30%;
+    text-align: right;
+    display: inline-block;
+
+}
