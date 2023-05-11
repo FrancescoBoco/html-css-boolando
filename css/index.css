@@ -60,3 +60,79 @@
     display: inline-block;
 
 }
+
+------------------------
+
+.container {  
+    margin: 0 auto;
+    width: 70%;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin:0 auto;
+    margin-top:20px
+}
+
+.col-1 {
+    width: calc(100% / 3);
+    padding: 10px; 
+}
+
+.discount-sustainability{
+    position:absolute;
+    bottom: 100px;
+}
+
+.discount{
+    background-color: red;
+    padding: 3px;
+    color: white;
+    margin-right: 2px;
+    
+}
+
+.sustainability{
+    background-color: green;
+    padding: 3px;
+    color: white;
+}
+
+img {
+    width: 100%;
+    display: inline;
+}
+
+.product-container {
+    position: relative;
+}
+
+.whishlist {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+/* text class */
+
+.text1{
+    font-size: 0.5em;
+}
+.text2{
+    
+}
+.text3{
+    color: red;
+    font-size: 0.8em;
+}
+.text4{
+    text-decoration: line-through;
+    font-size: 0.8em;
+
+}
+/* .
