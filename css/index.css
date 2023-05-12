@@ -118,7 +118,35 @@ img {
     position: absolute;
     right: 0;
     top: 5px;
+    
 }
+
+/* hover  */
+
+.image-hover{
+    display: none;
+    position: absolute;
+    top:0%;
+    right: 0%;
+}
+
+.heart-hover{
+    display: none;
+    position: absolute;
+    right: 10px;
+    color:red;
+}
+
+
+
+.product-container:hover .image-hover{
+    display: block;
+}
+
+ .whishlist:hover .heart-hover{
+    display: inline-block;
+    
+} 
 
 /* text class */
 
